@@ -4,3 +4,13 @@ This program enables to parse the csv file generated from MyCourses for any quiz
 
 Make sure the csv file consists of 18 columns named [ OrgDefinedId, Username, FirstName, LastName, Attempt #, Attempt Start,
 #Attempt End, Section #, Q #, Q Type, Q Title, Q Text, Bonus?, Difficulty, Answer, Answer Match, Score, Out Of ].
+
+## Usage:
+
+python3 mcparser.py data.csv
+
+-- OR --
+
+python3 mcparser.py -v data.csv
+
+for more verbosity in the output files
